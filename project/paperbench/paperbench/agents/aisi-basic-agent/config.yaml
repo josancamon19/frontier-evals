@@ -76,6 +76,14 @@ aisi-basic-agent-o3-mini:
     MAX_TIME_IN_HOURS: 12
     OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+aisi-basic-agent-gpt-5-nano:
+  <<: *common_settings
+  env_vars:
+    <<: *env-config-vars
+    MODEL: openai/gpt-5-nano-2025-08-07
+    MAX_TIME_IN_HOURS: 12
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
 # Anthropic
 
 aisi-basic-agent-claude-3-5-sonnet:

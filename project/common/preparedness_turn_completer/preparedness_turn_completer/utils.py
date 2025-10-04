@@ -34,6 +34,7 @@ CONTEXT_WINDOW_LENGTHS: dict[str, int] = {
     "gpt-4.1": 1_047_576,
     "o1-preview": 128_000,
     "gpt-4-turbo": 128_000,
+    "gpt-5-nano-2025-08-07": 128_000,
 }
 
 
